@@ -36,7 +36,7 @@ def possible(permutation, tries):
             return False
     return True
 
-s = 'BWRGUY' # Black, White, Red, Green, blUe, Yellow
+s = 'BWRGUY.' # Black, White, Red, Green, blUe, Yellow, Empty
 
 solutions = [a+b+c+d for a in s for b in s for c in s for d in s]
 results = []
