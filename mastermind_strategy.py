@@ -9,10 +9,6 @@
 import itertools
 from statistics import mean
 
-def combinations(s):
-    """Returns all combinations of a given set."""
-    return [ ''.join(x) for x in itertools.permutations(s) ]
-
 def try_permutation(_permutation, _solution):
     """Check how many colors are correct and how many are in the set."""
     correct = 0
